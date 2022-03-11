@@ -16,9 +16,9 @@ module.exports = {
         'cyan': '#00FFF7',
       },
       screens: {
-        'mobile': '375px',
+        'sm': '375px',
         // => @media (min-width: 375px) { ... }
-        'desktop': '1440px',
+        'lg': '1440px',
         // => @media (min-width: 1440px) { ... }
       },
       boxShadow: {
