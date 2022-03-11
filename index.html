@@ -10,48 +10,48 @@
 
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/dist/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 
 </head>
-
-<body class="flex justify-center bg-dark-blue-body">
-  <div class="w-3/6 mt-20 p-[4%] bg-dark-blue-card rounded-xl shadow-2xl shadow-indigo-500/30">
+ 
+<body class="flex justify-center bg-dark-blue-body font-Outfit text-lg">
+  <div class="desktop:w-[50%] mobile:w-[70%] mt-20 p-[3%] bg-dark-blue-card rounded-xl shadow-2xl shadow-indigo-500/30">
     <section class="mb-5 flex justify-center">
       <img src="/images/image-equilibrium.jpg" alt="" class="rounded-xl">
     </section>
-    <div class="divide-y-[0.1px]">
-      <section class="flex flex-col justify-center align-middle text-white">
-        <h1 class="mb-5">
+    <div class="divide-y-[0.1px]"> 
+      <section class="flex flex-col justify-center mb-5 text-white">
+        <h1 class="mb-5 text-2xl">
           Equilibrium #3429 
         </h1>
-        <p class="mb-5">Our Equilibrium collection promotes balance and calm.</p>
-        <div class="mb-5 flex justify-between items-baseline">
-          <div class="mb-5 flex justify-start items-center">
+        <p class="mb-5 font-thin text-soft-blue">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="flex justify-between">
+          <div class="flex justify-start items-center">
             <svg class="mr-2" width="11" height="18" xmlns="http://www.w3.org/2000/svg">
               <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
                 fill="#00FFF8" /></svg>
-            <p class="mr-2">0.041 ETH</p>
+            <p class="mr-2 text-cyan">0.041 ETH</p>
           </div>
           <div class="flex justify-start items-center">
             <svg class="mr-2" width="17" height="17" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
                 fill="#8BACD9" /></svg>
-            <p class="mr-2">3 days left</p>
+            <p class="mr-2 text-soft-blue">3 days left</p>
           </div>
         </div>
       </section>
-      <section class="m-10">
-        <img src="/images/0.jpeg" alt="" class="w-[20%] rounded-full">
-        <p class="nft-credits">Creation of Maxx Wayne</p>
+      <section class="flex justify-start items-center text-white">
+        <img src="/images/0.jpeg" alt="" class="w-[12%] mt-4 mr-4 border-2 rounded-full">
+        <p class="font-thin"><span class="text-soft-blue">Creation of</span> Maxx Wayne</p>
       </section>
     </div>
-  </div>
+  </div> 
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Maxx Wayne</a>.
